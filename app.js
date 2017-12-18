@@ -4,6 +4,8 @@ var app=express();
 
 var hbs=require('hbs');
 
+var port=process.env.PORT || 3000;
+
 app.set('view engine','hbs');
 
 
@@ -31,6 +33,6 @@ app.get('/home',(req,res)=>{
   });
 })
 
-app.listen(3000,()=>{
-  console.log('server is listening on port 3000');
+app.listen(port,()=>{
+  console.log(`server is listening on port ${port}`);
 })

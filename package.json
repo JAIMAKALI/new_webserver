@@ -4,7 +4,8 @@
   "description": "nothing",
   "main": "helloworld.js",
   "scripts": {
-    "test": "welcome"
+    "test": "welcome",
+    "start":"node app.js"
   },
   "keywords": [
     "app"

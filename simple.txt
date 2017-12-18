@@ -1,0 +1,38 @@
+ls -al ~/.ssh
+
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+
+eval $(ssh-agent -s)
+
+
+ssh-add ~/.ssh/id_rsa
+
+
+ clip < ~/.ssh/id_rsa.pub
+
+
+ bash: clip: command not found
+
+cat ~/.ssh/id_rsa.pub > /dev/clipboard
+
+git init
+
+git status
+
+git add filename
+
+.gitignore
+
+ls -a
+
+
+
+git remote add origin https://github.com/JAIMAKALI/new_webserver.git
+
+
+git push -u origin master
+
+
+
+winpty heroku login
