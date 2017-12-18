@@ -1,0 +1,19 @@
+{
+  "name": "name",
+  "version": "1.0.0",
+  "description": "nothing",
+  "main": "helloworld.js",
+  "scripts": {
+    "test": "welcome"
+  },
+  "keywords": [
+    "app"
+  ],
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "hbs": "^4.0.1"
+  }
+}
